@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		7FC9918E28A2751D00C5F0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9918D28A2751D00C5F0D9 /* AppDelegate.swift */; };
 		7FC9919028A2751D00C5F0D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9918F28A2751D00C5F0D9 /* SceneDelegate.swift */; };
-		7FC9919228A2751D00C5F0D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9919128A2751D00C5F0D9 /* ViewController.swift */; };
+		7FC9919228A2751D00C5F0D9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC9919128A2751D00C5F0D9 /* MainViewController.swift */; };
 		7FC9919528A2751D00C5F0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC9919328A2751D00C5F0D9 /* Main.storyboard */; };
 		7FC9919728A2752200C5F0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC9919628A2752200C5F0D9 /* Assets.xcassets */; };
 		7FC9919A28A2752200C5F0D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC9919828A2752200C5F0D9 /* LaunchScreen.storyboard */; };
+		7FC991A228A276A900C5F0D9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC991A128A276A800C5F0D9 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7FC9918A28A2751D00C5F0D9 /* ДАМАШКА.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ДАМАШКА.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC9918D28A2751D00C5F0D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC9918F28A2751D00C5F0D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7FC9919128A2751D00C5F0D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FC9919128A2751D00C5F0D9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7FC9919428A2751D00C5F0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FC9919628A2752200C5F0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FC9919928A2752200C5F0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FC9919B28A2752200C5F0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC991A128A276A800C5F0D9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				7FC9918D28A2751D00C5F0D9 /* AppDelegate.swift */,
 				7FC9918F28A2751D00C5F0D9 /* SceneDelegate.swift */,
-				7FC9919128A2751D00C5F0D9 /* ViewController.swift */,
+				7FC9919128A2751D00C5F0D9 /* MainViewController.swift */,
+				7FC991A128A276A800C5F0D9 /* Model.swift */,
 				7FC9919328A2751D00C5F0D9 /* Main.storyboard */,
 				7FC9919628A2752200C5F0D9 /* Assets.xcassets */,
 				7FC9919828A2752200C5F0D9 /* LaunchScreen.storyboard */,
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7FC9918528A2751D00C5F0D9 /* Build configuration list for PBXProject "ДАМАШКА" */;
+			buildConfigurationList = 7FC9918528A2751D00C5F0D9 /* Build configuration list for PBXProject "HW2Lesson" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FC9919228A2751D00C5F0D9 /* ViewController.swift in Sources */,
+				7FC9919228A2751D00C5F0D9 /* MainViewController.swift in Sources */,
 				7FC9918E28A2751D00C5F0D9 /* AppDelegate.swift in Sources */,
 				7FC9919028A2751D00C5F0D9 /* SceneDelegate.swift in Sources */,
+				7FC991A228A276A900C5F0D9 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FC9918528A2751D00C5F0D9 /* Build configuration list for PBXProject "ДАМАШКА" */ = {
+		7FC9918528A2751D00C5F0D9 /* Build configuration list for PBXProject "HW2Lesson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FC9919C28A2752200C5F0D9 /* Debug */,
